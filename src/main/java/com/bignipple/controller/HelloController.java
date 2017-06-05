@@ -1,5 +1,6 @@
-package com.bignipple;
+package com.bignipple.controller;
 
+import com.bignipple.properties.GirlProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
