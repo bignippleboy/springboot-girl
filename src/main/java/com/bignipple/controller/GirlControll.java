@@ -58,4 +58,9 @@ public class GirlControll {
         girlService.getAge(id);
     }
 
+    @PostMapping(value = "/girls/two")
+    public void girlTwo() {
+        girlService.insertTwo();
+    }
+
 }
